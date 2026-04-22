@@ -1,3 +1,6 @@
+#input into top of script
+# uv: uvicorn==0.22.0
+import uvicorn
 import tkinter as tk
 from tkinter import messagebox
 from openpyxl import Workbook
