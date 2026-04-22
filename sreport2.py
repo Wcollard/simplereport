@@ -24,7 +24,7 @@ def export_to_excel():
     ws = wb.active
 
     # Set headers
-    headers = ["Ref No.", "PDF Link", "Google Link", "Espacenet Link", "USPTO Link", "ABSTRACT"]
+    headers = ["Ref No.", "PDF Link", "Google Link", "Espacenet Link", "USPTO Link", "NOTES"]
     column_widths = [25, 40, 40, 40, 40, 70]
 
     ws.append(headers)
